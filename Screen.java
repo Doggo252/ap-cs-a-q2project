@@ -27,7 +27,7 @@ public class Screen extends JPanel implements KeyListener {
     // set the size of the JPanel container
     @Override
     public Dimension getPreferredSize() {
-        return new Dimension(800, 600);
+        return new Dimension(800, 800);
     }
 
     // draw the actual stuff

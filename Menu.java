@@ -9,8 +9,10 @@ public class Menu implements ActionListener{
     private JButton playButton;
     private JButton settingsButton;
     private JButton helpButton;
+    private Color black;
 
     public Menu(Screen screen){
+        black = new Color(0,0,0);
         // Set up the button
         playButton = new JButton("Play");
         playButton.setBounds(400, 300, 100, 30);
@@ -21,6 +23,7 @@ public class Menu implements ActionListener{
     public void animate(){}
     public void updateMenu(){}
     public void drawMenu(Graphics g){
+        g.setColor(black);
         
     }
 
