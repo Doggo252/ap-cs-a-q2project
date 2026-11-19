@@ -20,7 +20,9 @@ public class Menu implements ActionListener{
 
     public void animate(){}
     public void updateMenu(){}
-    public void drawMenu(){}
+    public void drawMenu(Graphics g){
+        
+    }
 
     public void actionPerformed(ActionEvent e){
         // Check to see if the button was pushed

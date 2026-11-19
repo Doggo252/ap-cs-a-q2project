@@ -34,6 +34,7 @@ public class Screen extends JPanel implements KeyListener {
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
+        menu.drawMenu(g);
 
     }
 
