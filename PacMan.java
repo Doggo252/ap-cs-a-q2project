@@ -14,11 +14,11 @@ public class PacMan{
     }
 
     public void animate(){}
-    public void drawScore(boolean){}
-    public void checkCollisionGhost(Ghost[]){}
-    public void checkCollisionPellet(Pellet[]){}
-    public void checkCollisionPowerUp(PowerUp[]){}
-    public void checkCollisionPlayer(Player[]){}
+    public void drawScore(boolean gameRunning){}
+    public void checkCollisionGhost(Ghost[] ghosts){}
+    public void checkCollisionPellet(Pellet[] pellets){}
+    public void checkCollisionPowerUp(PowerUp[] powerUps){}
+    public void checkCollisionPlayer(Player player){}
     public void drawPellets(){}
     public void updateScore(){}
     public void startGame(){}
