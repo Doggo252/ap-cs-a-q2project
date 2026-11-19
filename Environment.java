@@ -1,3 +1,6 @@
+import javax.swing.*;
+import java.awt.*;
+
 public class Environment{
     private int x, y, width, height;
     //initialization constructor
@@ -19,7 +22,7 @@ public class Environment{
 			// Add move methods here
 			
 			//repaint the graphics drawn
-			repaint();
+			//repaint();
 		}
 
 	}

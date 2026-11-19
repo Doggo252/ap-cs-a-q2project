@@ -9,7 +9,7 @@ import java.awt.event.KeyEvent;
 
 public class Screen extends JPanel implements KeyListener {
     // instance variables
-    //private PacMan pacMan;
+    private PacMan pacMan;
 
     // initialization constructor
     public Screen() {
@@ -21,7 +21,7 @@ public class Screen extends JPanel implements KeyListener {
         this.addKeyListener(this);
 
         // instantiate/initialize object/variable
-
+        pacMan = new PacMan(this);
     }
 
     // set the size of the JPanel container
