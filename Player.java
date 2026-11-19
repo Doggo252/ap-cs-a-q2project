@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public class Player{
     private int x, y, width, height, moveSpeed, size, score, pelletsCollected, ghostsEaten;
     private boolean poweredUp;
@@ -9,7 +11,7 @@ public class Player{
     public void moveDown(){}
     public void moveLeft(){}
     public void moveRight(){}
-    public int[] getPos(){}
-    public int getScore(){}
+    //public int[] getPos(){}
+    //public int getScore(){}
 
 }
