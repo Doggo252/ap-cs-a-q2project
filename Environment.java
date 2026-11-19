@@ -2,13 +2,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Environment{
-    private int x, y, width, height;
+    private int x, y;
     //initialization constructor
-    public Environment(int x, int y, int width, int height){
+    public Environment(int x, int y){
         this.x = x;
         this.y = y;
-        this.width = width;
-        this.height = height;
     }
     public void animate(){
 		while(true){
@@ -28,6 +26,6 @@ public class Environment{
 	}
     //draw environment tile
     private void drawEnvironment(Graphics g){
-
+        
     }
 }
