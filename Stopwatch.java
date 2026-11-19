@@ -1,5 +1,5 @@
 // instantiate an object of this class type when you need to pause your code
-public class StopWatch {
+public class Stopwatch {
     private long startTime;
 
     // Sets the current time
